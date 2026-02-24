@@ -25,13 +25,13 @@
         <h2>Sobre mim</h2>
 
         <!--<img src="https://img.freepik.com/fotos-premium/ilustracao-de-sao-miguel-arcanjo-arcanjo-sao-miguel-gerador-ai-simbolo-de-protecao-e-defesa-estilo-do-icone_117038-5395.jpg?w=826" alt=""-->
-        <img src="Teste.jpg" alt="Imagem de foto de perfil" title="Imagem de perfil">
+        <img src="Teste.jpg" alt="Imagem de foto de perfil" title="Imagem de perfil" width="300" height="200">
 
 
         <article>
 
             <p>
-                Olá! Eu sou o Miguel... Texto add segunda versão
+                Olá! Eu sou o Miguel...
             </p>
 
         </article>
@@ -74,6 +74,45 @@
                 E-mail: <a href="mailto:miguel.cdia1@gmail.com">miguel.cdia1@gmail.com</a> <br>
                 <!--<br>= Quebra de página-->
                 Telefone: <a href="tel:+5549999559793"> (49) 99955-9793</a>
+
+            <form action="">
+
+                <label for="nome">Digite seu nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+                
+                <label for="email">Digite seu e-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Digite seu telefone: </label>
+                <input type="tel" id="telefone" name="telefone" required> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea> <br>
+                
+                <input type="checkbox" id="incricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label> <br>
+
+                <input type="submit" value="Enviar mensagem"> <br>
+
+                <label for="username">Nome do usuário:</label><br>
+                <input type="text" id="username" name="username"><br>
+                
+                <label for="pwd">Senha:</label><br>
+                <input type="password" id="pwd" name="pwd">
+
+
+
+            </form>
+
             </address>
         </section>
     </footer>
